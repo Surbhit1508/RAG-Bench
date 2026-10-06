@@ -1,0 +1,29 @@
+# Core RAG pipeline
+sentence-transformers>=3.0
+faiss-cpu>=1.8
+rank-bm25>=0.2.2
+transformers>=4.44
+accelerate>=0.33
+torch>=2.3
+datasets>=2.20
+huggingface_hub>=0.24
+
+# Evaluation & stats
+scikit-learn>=1.5
+scipy>=1.13
+rouge-score>=0.1.2
+
+# Data / plotting
+numpy>=1.26
+pandas>=2.2
+matplotlib>=3.9
+seaborn>=0.13
+tqdm>=4.66
+
+# Demo + notebooks
+streamlit>=1.37
+jupyter>=1.0
+
+# Dev
+pytest>=8.0
+python-dotenv>=1.0
